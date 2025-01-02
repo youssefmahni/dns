@@ -1,0 +1,11 @@
+zone "ysf.con" {
+    type master;
+    file "/etc/bind/zones/forward.ysf.con.db";
+    allow-update { none; };
+};
+
+zone "1.1.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/reverse.192.1.1.db";
+    allow-update { none; };
+};

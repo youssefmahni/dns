@@ -1,0 +1,15 @@
+$TTL    604800
+@       IN      SOA     ns1.ysf.con. root.ysf.con. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+
+@       IN      NS      ns1.ysf.con.
+
+; PTR Records for Reverse Lookup
+;
+2       IN      PTR     ns1.ysf.con.
+3       IN      PTR     pc1.ysf.con.
+4       IN      PTR     pc2.ysf.con.
